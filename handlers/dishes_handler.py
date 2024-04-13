@@ -2,8 +2,8 @@ from aiogram import Router, F
 from aiogram.types import Message
 from aiogram.filters import Command
 
-from keyboards.dishes_keyboard import dishes_keyboard
-from keyboards.main_keyboard import main_keyboard
+from keyboards.reply_keyboards.dishes_keyboard import dishes_keyboard
+from keyboards.reply_keyboards.main_keyboard import main_keyboard
 
 router = Router()
 
